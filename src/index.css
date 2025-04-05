@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 bg-primary text-white rounded-full hover:bg-secondary transition-all duration-300 dark:hover:bg-secondary/80;
+  }
+  
+  .nav-link {
+    @apply text-gray-600 hover:text-primary transition-colors dark:text-gray-300 dark:hover:text-primary;
+  }
+  
+  .section-title {
+    @apply text-4xl font-bold text-primary text-center mb-4 dark:text-primary;
+  }
+  
+  .section-subtitle {
+    @apply text-xl text-gray-600 text-center mb-12 dark:text-gray-300;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dark {
+  color-scheme: dark;
+}
