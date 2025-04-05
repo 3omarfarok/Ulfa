@@ -173,32 +173,32 @@ function App() {
 
   const products = [
     {
-      image: "../public/8.jpg",
+      image: "../ulfa/public/8.jpg",
       title: "amigurumi pet turtle",
       description: "Slow and steady wins hearts! 🐢✨ Meet our handmade amigurumi pet turtle"
     },
     {
-      image: "../public/4.jpg",
+      image: "../ulfa/public/4.jpg",
       title: "Crochet Cardigan",
       description: "Elevate your winter wardrobe with this vintage-inspired granny square coat!"
     },
     {
-      image: "../public/7.jpg",
+      image: "../ulfa/public/7.jpg",
       title: "Mr roboty",
       description: "Soft, cuddly, and ready to compute endless hugs!"
     },
     {
-      image: "../public/11.jpg",
+      image: "../ulfa/public/11.jpg",
       title: "EID Diary",
       description: "Stylish crochet wear for all occasions! Perfect for any outfit."
     },
     {
-      image: "../public/5.jpg",
+      image: "../ulfa/public/5.jpg",
       title: "heart crochet bag",
       description: "Our black-and-white bag is perfect for carrying style and charm wherever you go!"
     },
     {
-      image: "../public/10.jpg",
+      image: "../ulfa/public/10.jpg",
       title: "chunky crochet bag",
       description: "The perfect blend of handmade charm & modern style for your everyday adventures!"
     }
@@ -206,12 +206,12 @@ function App() {
 
   const features = [
     {
-      image: "../public/10.jpg",
+      image: "../ulfa/public/10.jpg",
       label: "Best Seller",
       description: "Our most loved creations"
     },
     {
-      image: "../public/11.jpg",
+      image: "../ulfa/public/11.jpg",
       label: "New Arrival",
       description: "Fresh designs just added"
     }
@@ -343,7 +343,7 @@ function App() {
               viewport={{ once: true }}
             >
               <img
-                src="../public/Aml.png"
+                src="../ulfa/public/Aml.png"
                 alt="Amal Rashwan"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
@@ -361,7 +361,7 @@ function App() {
               viewport={{ once: true }}
             >
               <img
-                src="../public/Eman2.png"
+                src="../ulfa/public/Eman2.png"
                 alt="Eman Emad"
                 className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
               />
